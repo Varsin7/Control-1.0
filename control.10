@@ -36,7 +36,7 @@ if Testing == false then
 	TextLabel.Position = UDim2.new(0.5, 0, 0.419999987, 0)
 	TextLabel.Size = UDim2.new(0, 279, 0, 34)
 	TextLabel.Font = Enum.Font.Gotham
-	TextLabel.Text = "Free Version 🤮  "..game.Players.LocalPlayer.Name
+	TextLabel.Text = "Alt Control 1.0  "..game.Players.LocalPlayer.Name
 	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 	TextLabel.TextScaled = false
 	TextLabel.TextSize = 19.000
@@ -214,7 +214,7 @@ local BringLocations = {
 local SetupsTable = {
 	Bank = {
 		Origin = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-3),
-		ZMultiplier = 10,
+		ZMultiplier = 5,
 		XMultiplier = 9,
 		PerRow = 5,
 		Rows = 9,
@@ -228,7 +228,7 @@ local SetupsTable = {
 	},
 	club = {
 		Origin = CFrame.new(-237.016571, -4.87585974, -411.940063, 0.994918466, -1.5840282e-08, -0.100683607, 6.8329018e-09, 1, -8.9807088e-08, 0.100683607, 8.86627731e-08, 0.994918466),
-		ZMultiplier = 10,
+		ZMultiplier = 5,
 		XMultiplier = 9,
 		PerRow = 5,
 		Rows = 9,
